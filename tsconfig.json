@@ -1,0 +1,13 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "target": "ES2022",
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "outDir": "dist"
+  }
+}
