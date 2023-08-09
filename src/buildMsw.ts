@@ -42,7 +42,7 @@ export const buildMsw = (endpointConfig: EndpointConfigForMsw) => {
     return res(
       ctx.status(500),
       ctx.json({
-        message: \`msw post not mocked: \${JSON.stringify(req, null, 2)}\`,
+        message: \`msw req not mocked: \${JSON.stringify(req, null, 2)}\`,
       })
     );
   }),
