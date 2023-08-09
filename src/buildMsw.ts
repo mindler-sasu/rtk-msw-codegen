@@ -1,15 +1,5 @@
 import { EndpointConfigForMsw } from "./types";
 
-// import { rest } from "msw";
-//
-// rest.get<TDataResponseBody<QuestionnaireAnswer[]>>(
-//   "*privacy/data-collection/patient/:request_id",
-//   (_, res, ctx) =>
-//     res(
-//       ctx.json({ success: true, data: { data: [mockQuestionnaireAnswer] } })
-//     )
-// ),
-
 export const escapeQuotes = (str?: string) =>
   str ? str.replace(/['"`]/g, '') : "";
 
